@@ -1,0 +1,16 @@
+@tailwind components;
+
+@layer components{
+    .container-footer{
+        @apply h-[702px] w-full bg-orange-400 mt-[200px];
+    }
+    .title-footer-footer{
+        @apply text-[16rem] font-bold ml-64 text-white;
+    }
+    .title-mini-footer{
+        @apply text-[6rem] font-bold ml-16 text-orange-900;
+    }
+    .title-mini-second-footer{
+        @apply text-[3rem] font-bold text-orange-900 ml-[960px] mt-6;
+    }
+}

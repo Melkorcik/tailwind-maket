@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .title-text-version{
+        @apply text-3xl ml-[-331px] text-black animate-pulse;
+    }
+    .main-container-three{
+       @apply flex border-t-2 justify-between my-32;
+    }
+    .container-one{
+        @apply mx-36 border-r-2;
+    }
+    .title-three-one{
+        @apply text-3xl animate-pulse;
+    }
+    .children-title-one{
+        @apply text-xl mx-16 my-6;
+    }
+    .text-content-three-one{
+        @apply text-center mx-16 text-gray-600;
+    }
+    .text-content-three-one-1{
+        @apply mx-16 border-b-2 pb-3;
+    }
+
+    .container-two{
+        @apply mx-36 border-r-2 relative;
+    }
+    .title-three-two{
+        @apply text-3xl animate-pulse ml-[-466px];
+    }
+    .text-content-three-two{
+        @apply ml-[-466px] w-[303px] mt-6;
+    }
+    .btn-two{
+        @apply border bg-black text-white px-1 absolute left-[-116px] top-[361px];
+    }
+    .container-three-three-one{
+       @apply flex;
+    }
+    .phone{
+        @apply absolute right-[303px] top-[750px] w-[35px] h-[35px];
+    }
+    .number-phone-one{
+        @apply absolute top-[761px] right-[181px];
+    }
+    .dashed-line{
+        @apply absolute top-[791px] right-[81px] border border-gray-500 w-[250px];
+    }
+    .home{
+        @apply absolute w-[35px] h-[35px] right-[303px] top-[840px];
+    }
+    .number-phone-two,.number-phone-three{
+        @apply absolute top-[851px] right-[181px];
+    }
+    .dashed-line-two{
+        @apply absolute top-[881px] right-[81px] border border-gray-500 w-[250px];
+    }
+    .conver{
+        @apply absolute w-[35px] h-[35px] right-[301px] top-[930px]
+    }
+    .number-phone-three{
+        @apply top-[937px] right-[171px];
+    }
+    .dashed-line-three{
+        @apply absolute top-[963px] right-[81px] border border-gray-500 w-[250px];
+    }
+}

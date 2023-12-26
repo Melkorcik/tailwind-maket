@@ -1,0 +1,26 @@
+@layer{
+    .main-container-four{
+        @apply relative h-[200px] w-full;
+    }
+    .line-top,.line-top-two{
+        @apply h-[1px] w-[1360px] m-auto bg-gray-600 block;
+    }
+    .title-four{
+        @apply absolute left-52 -top-3 bg-white px-3;
+    }
+    .container-icons{
+        @apply flex justify-around;
+    }
+    .icon-pin,.icon-js,.icon-google,.icon-visa,.LoremIpsum{
+        @apply h-32 w-32 mt-6 mb-6;
+    }
+    .LoremIpsum{
+        @apply m-auto mt-6 mb-6;
+    }
+    .Links{
+        @apply flex w-[401px] m-auto gap-3;
+    }
+    .title-home, .title-about, .title-servies, .title-contact, .title-work{
+        @apply hover:text-green-500 cursor-pointer;
+    }
+}
